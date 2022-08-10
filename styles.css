@@ -1,0 +1,267 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.hero {
+    flex: 0 0 auto;
+    background-image: url(images/pic-2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex: 0 0 0;
+    padding: 2% 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header-logo {
+    flex: 0 0 0;
+    padding: 0.5% 60px;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 100px;
+    border-radius: 12px;
+    background-image: url(images/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: x-large;
+    color: #E5E7EB;
+    font-weight: bolder;
+}
+
+.sub-header {
+    display: flex;
+    padding: 2% 8%;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro h1 {
+    flex: 0 0 auto;
+    padding: 20px;
+    width: 350px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.intro p {
+    flex: 0 0 auto;
+    width: 400px;    
+}
+
+.intro .button {
+    flex: 0 0 auto;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+    background-color: #3882f6;
+}
+.intro a {
+    color: white;
+    text-decoration: none;
+}
+
+.sub-header .img {
+    flex: 0 0 auto;
+    font-size: 20px;
+    padding: 150px 275px;
+    background-image: url(images/7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.container h3 {
+    flex: 0 0 auto;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 40px;
+    color: #1F2937;
+}
+.container .box {
+    display: flex;
+    width: 800px;
+    height: 300px;
+    gap: 20px;
+    margin-bottom: 5px;
+}
+.container .box div {
+    display: flex;
+    flex: 1;
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 100px;
+    height: 175px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container .text {
+    display: flex;
+    width: 800px;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    gap: 20px;
+}
+
+.text-one, .text-two, .text-three, .text-four {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    margin: 0%;
+    font-size: 20px;
+    color: #b8b9bb;
+    text-align: center;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.main-text .quote {
+    flex: 1 1 auto;
+    align-self: center;
+    padding: 0px;
+    margin: 50px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    width: 1000px;
+    height: 50px;
+    font-size: 36px;
+    color: #666666;
+}
+.main-text .Name {
+    flex: 1 1 auto;
+    align-self: flex-end;
+    margin-right: 350px;
+    width: 250px;
+    text-align: right;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #302f2f;
+}
+
+.sign-up {
+    display: flex;
+    flex: 1;
+    height: 150px;
+
+    margin-top: 0px;
+    padding: 80px;
+    justify-content: center;    
+}
+.container-3 {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+
+.sign-up .container-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 800px;
+    border-radius: 12px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.container-2 h3 {
+    flex: 1 1 auto;
+    font-size: xx-large;
+    margin-top: 0px;
+}
+.container-2 .sign-info {
+    flex: 1 1 auto;
+    font-size: x-large;
+}
+
+.click {
+    background-color: #3882F6;
+    border-radius: 12px;
+    margin: 20px;
+    margin-top: 60px;
+    width: 100px;
+    height: 50px;
+    border: 3px solid white;
+}
+
+.click a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: x-large;
+    padding: 60px;
+    text-align: center;
+}
+
+.one {
+    background-image: url(images/pic-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two {
+    background-image: url(images/9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.three {
+    background-image: url(images/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.four {
+    background-image: url(images/8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
